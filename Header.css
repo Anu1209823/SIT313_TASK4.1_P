@@ -1,0 +1,58 @@
+/* Header.css */
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    padding: 1rem;
+    background-color:#2F455C;
+  }
+  
+  .header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .dev-deakin-left {
+    font-weight: bold;
+    margin-right: 20px;
+    color: white; /* Add this line to set the text color to white */
+  }
+  
+  .search-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input input {
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .search-input .search.icon {
+    font-size: 1.2rem; /* Adjust the size as needed */
+    margin-left: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ui.input {
+    margin-right: 10px;
+  }
+  
+  /* Updated styles for Post and Login buttons */
+  .ui.button {
+    color: white; /* Set text color to black */
+    background-color: black; /* Set background color to transparent */
+    border: 1px solid white; /* Add black border */
+  }
+  
+  .ui.button:hover {
+    background-color:#01989F; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  

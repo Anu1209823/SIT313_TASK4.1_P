@@ -1,0 +1,67 @@
+/* FeaturedArticle.css */
+
+
+.featured-articles {
+    margin: 20px 0;
+    text-align: center; /* Center the content */
+  }
+  
+  .featured-article-heading {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .article-list {
+    display: flex;
+    justify-content: center; /* Center articles horizontally */
+    align-items: flex-start; /* Align articles at the top */
+    gap: 50px; /* Add spacing between articles */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  .article-card {
+    border: 1px solid #ccc;
+    padding: 10px; /* Reduce padding for a more compact layout */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Adjust width as needed */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.05); /* Add zooming effect on hover */
+  }
+  
+  .article-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Add spacing below the image */
+  }
+  
+  .article-details {
+    text-align: left; /* Align article details to the left */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+  .star-ratings {
+    color: gold;
+  }
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .see-all-button {
+    background-color:black; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding around the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .see-all-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

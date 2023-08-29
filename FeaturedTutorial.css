@@ -1,0 +1,65 @@
+/* FeaturedTutorials.css */
+.featured-tutorials {
+    margin: 90px 0;
+    text-align: center;
+  }
+  
+  .featured-tutorials-heading {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .tutorial-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    overflow-x: auto;
+  }
+  
+  .tutorial-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tutorial-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .tutorial-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .tutorial-details {
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .tutorial-ratings {
+    color: gold;
+  }
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .see-all-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .see-all-button:hover {
+    background-color: #0056b3;
+  }
+  

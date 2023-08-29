@@ -1,0 +1,34 @@
+/* MailSignup.css */
+.mail-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .signup-text {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .gmail-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gmail-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .signup-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
